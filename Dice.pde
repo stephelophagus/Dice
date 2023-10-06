@@ -12,7 +12,7 @@ void draw ()
       fill(265,265,265);
       stroke(0);
       strokeWeight(2);
-      rect(275, 675, 186, 43, 5);
+      rect(275, 675, 188, 43, 5);
   for (int y = 10; y <= 620; y+= 55) {
     for (int x = 10; x<= 670; x += 55) {
      Die bob = new Die(x,y);
